@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix::after{
+ /*  Its used so that the author part */
+ /* Doesn't go on the right with the  */
+ /* other 25% right 'other' class */
+    content:"";
+    display:table;
+    clear: both;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+/* h1,h2 for both of the styles together */
+
+
+h1{
+color: rgb(14, 160, 140);
+font-size: 40px;
+margin-bottom: 20px;
+
+
+}
+
+h2{
+    color:brown;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+    
+    }
+    p{
+
+text-align: justify;
+
+
+    }
+
+
+
+    .mainp{
+        margin-bottom: 10px;
+    }
+    .earth{
+        font-size: 22px;
+        float: left;
+        margin: 35px 0 0 20px;
+    }
+    .container{
+        width: 1140px;
+        margin: 20px auto 0 auto;
+        
+    }
+    .blogpost{
+
+        /* background-color:brown; */
+        width: 75%;
+        float: left;
+        padding-right: 30px;
+        position: relative;
+        
+
+    }
+    .other-post{
+        /* background-color:cadetblue ; */
+        width: 25%;
+        float: right;
+        
+    }
+    .author{
+        padding-top: 20px;
+      border-top: 2px solid gray ;
+        /* background-color:rgb(167, 177, 76); */
+        
+       
+    }
+
+    .other{
+
+        margin-bottom: 40px;
+    }
+     
+    .author img{
+      float: left;
+        border-radius: 75%;
+    }
+
+    .date{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        color: indianred;
+    }
+    
